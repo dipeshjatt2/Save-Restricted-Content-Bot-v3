@@ -24,8 +24,8 @@ MONGO_DB = os.getenv("MONGO_DB", "")
 OWNER_ID = 5203820046 # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
 STRING = os.getenv("STRING", None) # optional
-LOG_GROUP = int(os.getenv("LOG_GROUP", "-1001234456")) # optional with -100
-FORCE_SUB = int(os.getenv("FORCE_SUB", "-10012345567")) # optional with -100
+LOG_GROUP = -1003039720319 # optional with -100
+FORCE_SUB = -1002888079062 # optional with -100
 MASTER_KEY = os.getenv("MASTER_KEY", "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq") # for session encryption
 IV_KEY = os.getenv("IV_KEY", "s7Yx5CpVmE3F") # for decryption
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
@@ -34,5 +34,6 @@ FREEMIUM_LIMIT = 1000
 PREMIUM_LIMIT = 5000
 JOIN_LINK = "https://t.me/python_noobx" # this link for start command message
 ADMIN_CONTACT = "https://t.me/andr0idpie9"
+
 
 
