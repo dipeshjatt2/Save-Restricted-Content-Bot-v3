@@ -21,7 +21,7 @@ API_ID = os.getenv("API_ID", "")
 API_HASH = os.getenv("API_HASH", "")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 MONGO_DB = os.getenv("MONGO_DB", "")
-OWNER_ID = list(map(int, os.getenv("OWNER_ID", "").split())) # list seperated via space
+OWNER_ID = 5203820046 # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
 STRING = os.getenv("STRING", None) # optional
 LOG_GROUP = int(os.getenv("LOG_GROUP", "-1001234456")) # optional with -100
@@ -34,4 +34,5 @@ FREEMIUM_LIMIT = 1000
 PREMIUM_LIMIT = 5000
 JOIN_LINK = "https://t.me/python_noobx" # this link for start command message
 ADMIN_CONTACT = "https://t.me/andr0idpie9"
+
 
